@@ -34,7 +34,7 @@ def save_admins(admin_list):
 ADMIN_IDS = load_admins()
 
 # Остальные ваши переменные и функции
-TOKEN = "8332132670:AAEZCEFmUag71kWRk6ChmNKRLP9Ys02BF7A"
+TOKEN = "7968107633:AAHNWfpFYlwcgRoUoI46VlKdAmqvZBCIIvs"
 ADMIN_ID = ADMIN_IDS[0] if ADMIN_IDS else None
 DATABASE_PATH = "bot_database.db"
 CONNECTIONS_FILE = "business_connections.json"
