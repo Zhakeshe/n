@@ -1,0 +1,196 @@
+{
+  "checks": {
+    "15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3": {
+      "id": "15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3",
+      "stars_amount": 100,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T20:37:41.343482",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "001adbc2-c3fa-4dff-a367-c97710395f54": {
+      "id": "001adbc2-c3fa-4dff-a367-c97710395f54",
+      "stars_amount": 1000,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T20:39:12.897261",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "daf2d64e-9b5c-4519-be49-6f6258dc741f": {
+      "id": "daf2d64e-9b5c-4519-be49-6f6258dc741f",
+      "stars_amount": 100,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T20:43:29.580467",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "de255afc-ae15-4b7b-aea1-c2cb05a29990": {
+      "id": "de255afc-ae15-4b7b-aea1-c2cb05a29990",
+      "stars_amount": 100,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T20:43:42.592815",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "76b960a0-2352-47e8-b5fb-fd3fb4deab9a": {
+      "id": "76b960a0-2352-47e8-b5fb-fd3fb4deab9a",
+      "stars_amount": 10000,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T20:44:09.345594",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "116e66dd-cb2a-4fa9-9fca-d6c8575022c2": {
+      "id": "116e66dd-cb2a-4fa9-9fca-d6c8575022c2",
+      "stars_amount": 1000,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T20:44:24.361760",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "636b3390-71e0-46f7-a4b3-04e7d4647050": {
+      "id": "636b3390-71e0-46f7-a4b3-04e7d4647050",
+      "stars_amount": 1000000,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T20:44:25.013263",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c": {
+      "id": "cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c",
+      "stars_amount": 100,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T20:58:24.394345",
+      "used": true,
+      "used_by": 7874477752,
+      "used_at": "2025-08-15T20:58:55.301968",
+      "username": "aqrxrx"
+    },
+    "cd11ec0c-ca20-4fb3-bf2c-25831a5aac23": {
+      "id": "cd11ec0c-ca20-4fb3-bf2c-25831a5aac23",
+      "stars_amount": 100000,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T21:00:55.899381",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "5ff43cfa-2429-432e-bef5-8fc1a797b412": {
+      "id": "5ff43cfa-2429-432e-bef5-8fc1a797b412",
+      "stars_amount": 10000,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T21:03:24.779321",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "3d23a0e3-58c1-408b-92c3-a3460a3da5e2": {
+      "id": "3d23a0e3-58c1-408b-92c3-a3460a3da5e2",
+      "stars_amount": 1666,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T21:03:26.961028",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "ffc29862-d6b3-4883-a5c9-e6e39b3f7523": {
+      "id": "ffc29862-d6b3-4883-a5c9-e6e39b3f7523",
+      "stars_amount": 1666539,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T21:03:28.326322",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "d76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d": {
+      "id": "d76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d",
+      "stars_amount": 1,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T21:18:27.224075",
+      "used": true,
+      "used_by": 7874477752,
+      "used_at": "2025-08-15T21:19:24.531332",
+      "username": "aqrxrx"
+    },
+    "4b14df33-36d3-44f8-a5af-8792c115fe9f": {
+      "id": "4b14df33-36d3-44f8-a5af-8792c115fe9f",
+      "stars_amount": 100,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T21:19:01.027449",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "bdf3cada-37f1-4ad3-b8e2-b7af7e2bd6b8": {
+      "id": "bdf3cada-37f1-4ad3-b8e2-b7af7e2bd6b8",
+      "stars_amount": 1,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T22:06:15.957349",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "cac1f5d5-f3de-4cc3-9c88-6831c0f3ac9e": {
+      "id": "cac1f5d5-f3de-4cc3-9c88-6831c0f3ac9e",
+      "stars_amount": 100,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T22:06:16.703967",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "45a9923d-699c-45cd-85f5-bdd06771d30f": {
+      "id": "45a9923d-699c-45cd-85f5-bdd06771d30f",
+      "stars_amount": 100,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T22:23:34.562200",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "953052aa-7374-48f1-b4f1-e0bc0e4adc47": {
+      "id": "953052aa-7374-48f1-b4f1-e0bc0e4adc47",
+      "stars_amount": 5000,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T22:25:34.288483",
+      "used": true,
+      "used_by": 8268439911,
+      "used_at": "2025-08-15T22:27:33.809118",
+      "username": "user_batya_cherry"
+    },
+    "c1081514-2d5c-48a2-8858-c056df5b4b7a": {
+      "id": "c1081514-2d5c-48a2-8858-c056df5b4b7a",
+      "stars_amount": 5,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T22:25:52.549672",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "404dab89-664e-4522-ba0e-ad29689bc9df": {
+      "id": "404dab89-664e-4522-ba0e-ad29689bc9df",
+      "stars_amount": 5000,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T22:26:16.524329",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    },
+    "b5eb83d4-d47c-45ad-b14c-c2e08e285743": {
+      "id": "b5eb83d4-d47c-45ad-b14c-c2e08e285743",
+      "stars_amount": 110,
+      "description": "Подарок от друга",
+      "created_at": "2025-08-15T23:20:59.075423",
+      "used": false,
+      "used_by": null,
+      "used_at": null
+    }
+  }
+}

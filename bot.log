@@ -1,0 +1,901 @@
+2025-08-15 18:49:59,288 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 18:49:59,289 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 18:49:59,289 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 18:49:59,289 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 18:49:59,289 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 18:49:59,292 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 18:49:59,297 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 18:49:59,298 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 18:49:59,299 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 18:49:59,300 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 18:49:59,774 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:49:59,858 - aiogram.dispatcher - INFO - Run polling for bot @Anoncreatorobot id=8276354521 - 'Anoncreator'
+2025-08-15 18:49:59,960 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:49:59,962 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8276354521)
+2025-08-15 18:50:04,045 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:04,045 - aiogram.dispatcher - WARNING - Sleep for 1.267697 seconds and try again... (tryings = 1, bot id = 8276354521)
+2025-08-15 18:50:05,399 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:05,400 - aiogram.dispatcher - WARNING - Sleep for 1.654177 seconds and try again... (tryings = 2, bot id = 8276354521)
+2025-08-15 18:50:10,151 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:10,152 - aiogram.dispatcher - WARNING - Sleep for 2.153683 seconds and try again... (tryings = 3, bot id = 8276354521)
+2025-08-15 18:50:12,396 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:12,396 - aiogram.dispatcher - WARNING - Sleep for 2.634670 seconds and try again... (tryings = 4, bot id = 8276354521)
+2025-08-15 18:50:18,114 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:18,115 - aiogram.dispatcher - WARNING - Sleep for 3.565711 seconds and try again... (tryings = 5, bot id = 8276354521)
+2025-08-15 18:50:21,774 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:21,774 - aiogram.dispatcher - WARNING - Sleep for 4.573854 seconds and try again... (tryings = 6, bot id = 8276354521)
+2025-08-15 18:50:26,901 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:26,901 - aiogram.dispatcher - WARNING - Sleep for 5.020920 seconds and try again... (tryings = 7, bot id = 8276354521)
+2025-08-15 18:50:32,010 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:32,010 - aiogram.dispatcher - WARNING - Sleep for 5.014509 seconds and try again... (tryings = 8, bot id = 8276354521)
+2025-08-15 18:50:37,117 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:37,117 - aiogram.dispatcher - WARNING - Sleep for 5.064593 seconds and try again... (tryings = 9, bot id = 8276354521)
+2025-08-15 18:50:42,278 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:42,278 - aiogram.dispatcher - WARNING - Sleep for 4.911078 seconds and try again... (tryings = 10, bot id = 8276354521)
+2025-08-15 18:50:47,265 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:47,265 - aiogram.dispatcher - WARNING - Sleep for 5.030014 seconds and try again... (tryings = 11, bot id = 8276354521)
+2025-08-15 18:50:52,392 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:52,392 - aiogram.dispatcher - WARNING - Sleep for 5.142975 seconds and try again... (tryings = 12, bot id = 8276354521)
+2025-08-15 18:50:57,628 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:50:57,628 - aiogram.dispatcher - WARNING - Sleep for 5.105431 seconds and try again... (tryings = 13, bot id = 8276354521)
+2025-08-15 18:51:02,826 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:51:02,826 - aiogram.dispatcher - WARNING - Sleep for 4.874700 seconds and try again... (tryings = 14, bot id = 8276354521)
+2025-08-15 18:51:07,799 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:51:07,799 - aiogram.dispatcher - WARNING - Sleep for 4.997983 seconds and try again... (tryings = 15, bot id = 8276354521)
+2025-08-15 18:51:12,886 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-08-15 18:51:12,888 - aiogram.dispatcher - WARNING - Sleep for 5.037237 seconds and try again... (tryings = 16, bot id = 8276354521)
+2025-08-15 18:51:14,631 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 18:51:14,632 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 18:51:15,043 - root - INFO - ✅ Бот остановлен
+2025-08-15 18:51:15,045 - aiogram.dispatcher - INFO - Polling stopped for bot @Anoncreatorobot id=8276354521 - 'Anoncreator'
+2025-08-15 18:51:19,799 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 18:51:19,799 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 18:51:19,800 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 18:51:19,800 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 18:51:19,801 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 18:51:19,801 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 18:51:19,802 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 18:51:19,804 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 18:51:19,808 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 18:51:19,810 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 18:51:20,219 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:51:20,302 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 18:51:21,984 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 18:51:21,984 - handlers.user - INFO - Получена команда /start: /start от пользователя 7592097268
+2025-08-15 18:51:21,985 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 18:51:21,985 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 18:51:22,284 - aiogram.event - INFO - Update id=146366235 is handled. Duration 297 ms by bot id=8202062736
+2025-08-15 18:51:38,838 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 18:51:38,838 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 18:51:38,838 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 18:51:38,952 - aiogram.event - INFO - Update id=146366236 is handled. Duration 125 ms by bot id=8202062736
+2025-08-15 18:51:40,901 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 18:51:40,901 - handlers.inline - INFO - Запрос: 'ч' от пользователя 7592097268
+2025-08-15 18:51:40,903 - handlers.inline - INFO - Обрабатываем обычный инлайн-запрос: ч
+2025-08-15 18:51:41,202 - handlers.inline - INFO - ✅ Обработан обычный инлайн-запрос: ч
+2025-08-15 18:51:41,202 - aiogram.event - INFO - Update id=146366237 is handled. Duration 313 ms by bot id=8202062736
+2025-08-15 18:51:42,298 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 18:51:42,298 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 18:51:42,298 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 18:51:42,299 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 18:51:42,301 - handlers.inline - INFO - Создаем чек на: 100 звезд
+2025-08-15 18:51:42,384 - handlers.inline - ERROR - Ошибка обработки инлайн-запроса: Telegram server says - Bad Request: text must be non-empty
+2025-08-15 18:51:42,386 - aiogram.event - INFO - Update id=146366238 is handled. Duration 77 ms by bot id=8202062736
+2025-08-15 18:53:31,930 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 18:53:31,930 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 18:53:32,038 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-15 18:53:32,038 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8202062736)
+2025-08-15 18:53:32,299 - root - INFO - ✅ Бот остановлен
+2025-08-15 18:53:32,300 - aiogram.dispatcher - INFO - Polling stopped for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 18:55:14,946 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 18:55:14,948 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 18:55:14,949 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 18:55:14,949 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 18:55:14,950 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 18:55:14,950 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 18:55:14,950 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 18:55:14,952 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 18:55:14,955 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 18:55:14,956 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 18:55:15,442 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:55:15,524 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 18:55:19,179 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 18:55:19,179 - handlers.inline - INFO - Запрос: 'чек 10' от пользователя 7592097268
+2025-08-15 18:55:19,179 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 10
+2025-08-15 18:55:19,179 - handlers.inline - INFO - Части запроса: ['чек', '10']
+2025-08-15 18:55:19,179 - handlers.inline - INFO - Создаем чек на: 10 звезд
+2025-08-15 18:55:19,440 - handlers.inline - INFO - ✅ Создан инлайн-чек: 10 звезд, URL: https://imggen.send.tg/checks/image?asset=STARS&asset_amount=10&fiat=USD&fiat_amount=0.10&main=asset&v2
+2025-08-15 18:55:19,440 - aiogram.event - INFO - Update id=146366239 is handled. Duration 250 ms by bot id=8202062736
+2025-08-15 18:55:21,930 - aiogram.event - INFO - Update id=146366240 is not handled. Duration 14 ms by bot id=8202062736
+2025-08-15 18:55:31,778 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 18:55:31,778 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 18:55:31,778 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 18:55:31,870 - aiogram.event - INFO - Update id=146366241 is handled. Duration 93 ms by bot id=8202062736
+2025-08-15 18:55:35,346 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 18:55:35,346 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 18:55:35,346 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 18:55:35,346 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 18:55:35,347 - handlers.inline - INFO - Создаем чек на: 100 звезд
+2025-08-15 18:55:35,444 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100 звезд, URL: https://imggen.send.tg/checks/image?asset=STARS&asset_amount=100&fiat=USD&fiat_amount=0.10&main=asset&v2
+2025-08-15 18:55:35,445 - aiogram.event - INFO - Update id=146366242 is handled. Duration 109 ms by bot id=8202062736
+2025-08-15 18:55:37,988 - aiogram.event - INFO - Update id=146366243 is not handled. Duration 0 ms by bot id=8202062736
+2025-08-15 20:37:29,635 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 20:37:29,637 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 20:37:29,637 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 20:37:29,638 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 20:37:29,638 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 20:37:29,643 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 20:37:29,645 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 20:37:29,647 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 20:37:29,654 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 20:37:29,656 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 20:37:30,129 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 20:37:30,217 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 20:37:30,451 - aiogram.event - INFO - Update id=146366244 is not handled. Duration 46 ms by bot id=8202062736
+2025-08-15 20:37:30,452 - aiogram.event - INFO - Update id=146366245 is not handled. Duration 46 ms by bot id=8202062736
+2025-08-15 20:37:30,453 - aiogram.event - INFO - Update id=146366246 is not handled. Duration 46 ms by bot id=8202062736
+2025-08-15 20:37:30,454 - aiogram.event - INFO - Update id=146366247 is not handled. Duration 46 ms by bot id=8202062736
+2025-08-15 20:37:41,339 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:37:41,339 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 20:37:41,339 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 20:37:41,343 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 20:37:41,343 - handlers.inline - INFO - Создаем чек: 100 звезд, описание: Подарок от друга
+2025-08-15 20:37:41,725 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100 звезд, описание: Подарок от друга
+2025-08-15 20:37:41,725 - aiogram.event - INFO - Update id=146366248 is handled. Duration 391 ms by bot id=8202062736
+2025-08-15 20:37:43,993 - aiogram.event - INFO - Update id=146366249 is not handled. Duration 0 ms by bot id=8202062736
+2025-08-15 20:38:42,525 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 20:38:42,527 - handlers.user - INFO - Получена команда /start: /start check_15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3 от пользователя 7592097268
+2025-08-15 20:38:42,527 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 20:38:42,527 - handlers.user - INFO - Длина сообщения: 49
+2025-08-15 20:38:42,643 - aiogram.event - INFO - Update id=146366250 is handled. Duration 125 ms by bot id=8202062736
+2025-08-15 20:39:10,850 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:39:10,850 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 20:39:10,851 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 20:39:10,948 - aiogram.event - INFO - Update id=146366251 is handled. Duration 93 ms by bot id=8202062736
+2025-08-15 20:39:12,893 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:39:12,894 - handlers.inline - INFO - Запрос: 'чек 1000' от пользователя 7592097268
+2025-08-15 20:39:12,894 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 1000
+2025-08-15 20:39:12,896 - handlers.inline - INFO - Части запроса: ['чек', '1000']
+2025-08-15 20:39:12,897 - handlers.inline - INFO - Создаем чек: 1000 звезд, описание: Подарок от друга
+2025-08-15 20:39:14,228 - handlers.inline - INFO - ✅ Создан инлайн-чек: 1000 звезд, описание: Подарок от друга
+2025-08-15 20:39:14,228 - aiogram.event - INFO - Update id=146366252 is handled. Duration 1327 ms by bot id=8202062736
+2025-08-15 20:39:15,145 - aiogram.event - INFO - Update id=146366253 is not handled. Duration 16 ms by bot id=8202062736
+2025-08-15 20:43:18,570 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 20:43:18,571 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 20:43:18,685 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-15 20:43:18,686 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8202062736)
+2025-08-15 20:43:18,943 - root - INFO - ✅ Бот остановлен
+2025-08-15 20:43:18,945 - aiogram.dispatcher - INFO - Polling stopped for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 20:43:26,276 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 20:43:26,277 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 20:43:26,278 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 20:43:26,278 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 20:43:26,278 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 20:43:26,279 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 20:43:26,279 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 20:43:26,282 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 20:43:26,286 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 20:43:26,287 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 20:43:27,315 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 20:43:27,402 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 20:43:27,526 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:43:27,527 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 20:43:27,528 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 20:43:27,829 - aiogram.event - INFO - Update id=146366254 is handled. Duration 312 ms by bot id=8202062736
+2025-08-15 20:43:29,578 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:43:29,578 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 20:43:29,579 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 20:43:29,579 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 20:43:29,580 - handlers.inline - INFO - Создаем чек: 100 звезд, описание: Подарок от друга
+2025-08-15 20:43:29,757 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100 звезд, описание: Подарок от друга
+2025-08-15 20:43:29,758 - aiogram.event - INFO - Update id=146366255 is handled. Duration 172 ms by bot id=8202062736
+2025-08-15 20:43:31,295 - aiogram.event - INFO - Update id=146366256 is not handled. Duration 15 ms by bot id=8202062736
+2025-08-15 20:43:39,808 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:43:39,809 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 20:43:39,809 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 20:43:39,899 - aiogram.event - INFO - Update id=146366257 is handled. Duration 93 ms by bot id=8202062736
+2025-08-15 20:43:42,590 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:43:42,591 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 20:43:42,591 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 20:43:42,591 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 20:43:42,591 - handlers.inline - INFO - Создаем чек: 100 звезд, описание: Подарок от друга
+2025-08-15 20:43:42,872 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100 звезд, описание: Подарок от друга
+2025-08-15 20:43:42,873 - aiogram.event - INFO - Update id=146366258 is handled. Duration 280 ms by bot id=8202062736
+2025-08-15 20:43:58,969 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:43:58,971 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 20:43:58,971 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 20:43:59,107 - aiogram.event - INFO - Update id=146366259 is handled. Duration 140 ms by bot id=8202062736
+2025-08-15 20:44:04,834 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:44:04,834 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 20:44:04,835 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 20:44:04,950 - aiogram.event - INFO - Update id=146366260 is handled. Duration 125 ms by bot id=8202062736
+2025-08-15 20:44:09,344 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:44:09,344 - handlers.inline - INFO - Запрос: 'чек 10000' от пользователя 7592097268
+2025-08-15 20:44:09,345 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 10000
+2025-08-15 20:44:09,345 - handlers.inline - INFO - Части запроса: ['чек', '10000']
+2025-08-15 20:44:09,345 - handlers.inline - INFO - Создаем чек: 10000 звезд, описание: Подарок от друга
+2025-08-15 20:44:09,842 - handlers.inline - INFO - ✅ Создан инлайн-чек: 10000 звезд, описание: Подарок от друга
+2025-08-15 20:44:09,843 - aiogram.event - INFO - Update id=146366261 is handled. Duration 500 ms by bot id=8202062736
+2025-08-15 20:44:22,069 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:44:22,069 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 20:44:22,069 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 20:44:22,174 - aiogram.event - INFO - Update id=146366262 is handled. Duration 109 ms by bot id=8202062736
+2025-08-15 20:44:24,359 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:44:24,360 - handlers.inline - INFO - Запрос: 'чек 1000' от пользователя 7592097268
+2025-08-15 20:44:24,360 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 1000
+2025-08-15 20:44:24,361 - handlers.inline - INFO - Части запроса: ['чек', '1000']
+2025-08-15 20:44:24,361 - handlers.inline - INFO - Создаем чек: 1000 звезд, описание: Подарок от друга
+2025-08-15 20:44:24,535 - handlers.inline - INFO - ✅ Создан инлайн-чек: 1000 звезд, описание: Подарок от друга
+2025-08-15 20:44:24,536 - aiogram.event - INFO - Update id=146366263 is handled. Duration 171 ms by bot id=8202062736
+2025-08-15 20:44:25,011 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:44:25,012 - handlers.inline - INFO - Запрос: 'чек 1000000' от пользователя 7592097268
+2025-08-15 20:44:25,012 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 1000000
+2025-08-15 20:44:25,013 - handlers.inline - INFO - Части запроса: ['чек', '1000000']
+2025-08-15 20:44:25,013 - handlers.inline - INFO - Создаем чек: 1000000 звезд, описание: Подарок от друга
+2025-08-15 20:44:25,193 - handlers.inline - INFO - ✅ Создан инлайн-чек: 1000000 звезд, описание: Подарок от друга
+2025-08-15 20:44:25,193 - aiogram.event - INFO - Update id=146366264 is handled. Duration 187 ms by bot id=8202062736
+2025-08-15 20:44:47,700 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 20:44:47,700 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 20:44:47,700 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 20:44:47,700 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 20:44:47,700 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 20:44:47,701 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 20:44:48,096 - aiogram.event - INFO - Update id=146366265 is handled. Duration 406 ms by bot id=8202062736
+2025-08-15 20:56:59,612 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 20:56:59,614 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 20:56:59,723 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-15 20:56:59,724 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8202062736)
+2025-08-15 20:56:59,974 - root - INFO - ✅ Бот остановлен
+2025-08-15 20:56:59,974 - aiogram.dispatcher - INFO - Polling stopped for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 20:57:07,108 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 20:57:07,109 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 20:57:07,109 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 20:57:07,109 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 20:57:07,111 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 20:57:07,111 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 20:57:07,111 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 20:57:07,113 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 20:57:07,118 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 20:57:07,119 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 20:57:07,589 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 20:57:07,672 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 20:57:14,121 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 20:57:14,121 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 20:57:14,122 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 20:57:14,122 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 20:57:14,122 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 20:57:14,123 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 20:57:14,535 - aiogram.event - INFO - Update id=146366266 is handled. Duration 421 ms by bot id=8202062736
+2025-08-15 20:57:16,975 - aiogram.event - INFO - Update id=146366267 is not handled. Duration 0 ms by bot id=8202062736
+2025-08-15 20:57:21,760 - aiogram.event - INFO - Update id=146366268 is not handled. Duration 0 ms by bot id=8202062736
+2025-08-15 20:57:30,434 - aiogram.event - INFO - Update id=146366269 is not handled. Duration 16 ms by bot id=8202062736
+2025-08-15 20:57:31,706 - aiogram.event - INFO - Update id=146366270 is not handled. Duration 15 ms by bot id=8202062736
+2025-08-15 20:58:21,649 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:58:21,650 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 20:58:21,650 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 20:58:21,758 - aiogram.event - INFO - Update id=146366271 is handled. Duration 109 ms by bot id=8202062736
+2025-08-15 20:58:24,390 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 20:58:24,390 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 20:58:24,391 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 20:58:24,392 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 20:58:24,394 - handlers.inline - INFO - Создаем чек: 100 звезд, описание: Подарок от друга
+2025-08-15 20:58:24,581 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100 звезд, описание: Подарок от друга
+2025-08-15 20:58:24,583 - aiogram.event - INFO - Update id=146366272 is handled. Duration 187 ms by bot id=8202062736
+2025-08-15 20:58:39,251 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 20:58:39,252 - handlers.user - INFO - Получена команда /start: /start check_cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c от пользователя 7874477752
+2025-08-15 20:58:39,252 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 20:58:39,253 - handlers.user - INFO - Длина сообщения: 49
+2025-08-15 20:58:39,254 - handlers.user - INFO - Разбор команды: ['/start', 'check_cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c']
+2025-08-15 20:58:39,255 - handlers.user - INFO - Найден ID чека: cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c
+2025-08-15 20:58:39,255 - utils.check_system - INFO - Поиск чека с ID: cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c
+2025-08-15 20:58:39,256 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': False, 'used_by': None, 'used_at': None}}}
+2025-08-15 20:58:39,257 - utils.check_system - INFO - Результат поиска чека: {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 20:58:39,257 - handlers.user - INFO - Результат поиска чека: {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 20:58:39,258 - handlers.user - INFO - Показываем сообщение о чеке для пользователя 7874477752
+2025-08-15 20:58:39,424 - aiogram.event - INFO - Update id=146366273 is handled. Duration 171 ms by bot id=8202062736
+2025-08-15 20:58:55,300 - utils.check_system - INFO - Поиск чека с ID: cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c
+2025-08-15 20:58:55,301 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': False, 'used_by': None, 'used_at': None}}}
+2025-08-15 20:58:55,301 - utils.check_system - INFO - Результат поиска чека: {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 20:58:55,695 - aiogram.event - INFO - Update id=146366274 is handled. Duration 406 ms by bot id=8202062736
+2025-08-15 21:00:03,533 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:00:03,535 - handlers.user - INFO - Получена команда /start: /start check_cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c от пользователя 7874477752
+2025-08-15 21:00:03,535 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:00:03,535 - handlers.user - INFO - Длина сообщения: 49
+2025-08-15 21:00:03,535 - handlers.user - INFO - Разбор команды: ['/start', 'check_cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c']
+2025-08-15 21:00:03,535 - handlers.user - INFO - Найден ID чека: cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c
+2025-08-15 21:00:03,535 - utils.check_system - INFO - Поиск чека с ID: cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c
+2025-08-15 21:00:03,536 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}}}
+2025-08-15 21:00:03,538 - utils.check_system - INFO - Результат поиска чека: {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}
+2025-08-15 21:00:03,538 - handlers.user - INFO - Результат поиска чека: {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}
+2025-08-15 21:00:03,538 - handlers.user - INFO - Чек cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c уже использован
+2025-08-15 21:00:03,708 - aiogram.event - INFO - Update id=146366275 is handled. Duration 172 ms by bot id=8202062736
+2025-08-15 21:00:05,543 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:00:05,544 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 21:00:05,545 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:00:05,545 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 21:00:05,545 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 21:00:05,546 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 21:00:05,751 - aiogram.event - INFO - Update id=146366276 is handled. Duration 219 ms by bot id=8202062736
+2025-08-15 21:00:52,962 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:00:52,964 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 21:00:52,964 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 21:00:53,185 - aiogram.event - INFO - Update id=146366277 is handled. Duration 234 ms by bot id=8202062736
+2025-08-15 21:00:55,895 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:00:55,895 - handlers.inline - INFO - Запрос: 'чек 100000' от пользователя 7592097268
+2025-08-15 21:00:55,897 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100000
+2025-08-15 21:00:55,898 - handlers.inline - INFO - Части запроса: ['чек', '100000']
+2025-08-15 21:00:55,899 - handlers.inline - INFO - Создаем чек: 100000 звезд, описание: Подарок от друга
+2025-08-15 21:00:56,099 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100000 звезд, описание: Подарок от друга
+2025-08-15 21:00:56,101 - aiogram.event - INFO - Update id=146366278 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 21:03:19,853 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:03:19,854 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 21:03:19,855 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 21:03:19,987 - aiogram.event - INFO - Update id=146366279 is handled. Duration 141 ms by bot id=8202062736
+2025-08-15 21:03:23,191 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:03:23,192 - handlers.inline - INFO - Запрос: 'чек' от пользователя 7592097268
+2025-08-15 21:03:23,192 - handlers.inline - INFO - Обрабатываем обычный инлайн-запрос: чек
+2025-08-15 21:03:23,405 - handlers.inline - INFO - ✅ Обработан обычный инлайн-запрос: чек
+2025-08-15 21:03:23,407 - aiogram.event - INFO - Update id=146366280 is handled. Duration 218 ms by bot id=8202062736
+2025-08-15 21:03:24,774 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:03:24,776 - handlers.inline - INFO - Запрос: 'чек 10000' от пользователя 7592097268
+2025-08-15 21:03:24,778 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 10000
+2025-08-15 21:03:24,779 - handlers.inline - INFO - Части запроса: ['чек', '10000']
+2025-08-15 21:03:24,779 - handlers.inline - INFO - Создаем чек: 10000 звезд, описание: Подарок от друга
+2025-08-15 21:03:24,967 - handlers.inline - INFO - ✅ Создан инлайн-чек: 10000 звезд, описание: Подарок от друга
+2025-08-15 21:03:24,967 - aiogram.event - INFO - Update id=146366281 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 21:03:26,957 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:03:26,957 - handlers.inline - INFO - Запрос: 'чек 1666' от пользователя 7592097268
+2025-08-15 21:03:26,960 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 1666
+2025-08-15 21:03:26,960 - handlers.inline - INFO - Части запроса: ['чек', '1666']
+2025-08-15 21:03:26,961 - handlers.inline - INFO - Создаем чек: 1666 звезд, описание: Подарок от друга
+2025-08-15 21:03:27,134 - handlers.inline - INFO - ✅ Создан инлайн-чек: 1666 звезд, описание: Подарок от друга
+2025-08-15 21:03:27,135 - aiogram.event - INFO - Update id=146366282 is handled. Duration 187 ms by bot id=8202062736
+2025-08-15 21:03:28,325 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:03:28,325 - handlers.inline - INFO - Запрос: 'чек 1666539' от пользователя 7592097268
+2025-08-15 21:03:28,326 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 1666539
+2025-08-15 21:03:28,326 - handlers.inline - INFO - Части запроса: ['чек', '1666539']
+2025-08-15 21:03:28,326 - handlers.inline - INFO - Создаем чек: 1666539 звезд, описание: Подарок от друга
+2025-08-15 21:03:28,524 - handlers.inline - INFO - ✅ Создан инлайн-чек: 1666539 звезд, описание: Подарок от друга
+2025-08-15 21:03:28,526 - aiogram.event - INFO - Update id=146366283 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 21:06:21,619 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 21:06:21,621 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 21:06:21,732 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-15 21:06:21,732 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8202062736)
+2025-08-15 21:06:21,992 - root - INFO - ✅ Бот остановлен
+2025-08-15 21:06:21,993 - aiogram.dispatcher - INFO - Polling stopped for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 21:06:28,520 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 21:06:28,520 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 21:06:28,521 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 21:06:28,522 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 21:06:28,522 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 21:06:28,528 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 21:06:28,528 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 21:06:28,530 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 21:06:28,537 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 21:06:28,540 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 21:06:29,088 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 21:06:29,176 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 21:06:33,801 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:06:33,801 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 21:06:33,802 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:06:33,802 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 21:06:33,802 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 21:06:33,802 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 21:06:34,210 - aiogram.event - INFO - Update id=146366284 is handled. Duration 406 ms by bot id=8202062736
+2025-08-15 21:06:39,559 - aiogram.event - INFO - Update id=146366285 is handled. Duration 219 ms by bot id=8202062736
+2025-08-15 21:06:44,959 - aiogram.event - INFO - Update id=146366286 is handled. Duration 125 ms by bot id=8202062736
+2025-08-15 21:06:46,177 - aiogram.event - INFO - Update id=146366287 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 21:08:09,154 - aiogram.event - INFO - Update id=146366288 is handled. Duration 218 ms by bot id=8202062736
+2025-08-15 21:08:31,695 - aiogram.event - INFO - Update id=146366289 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 21:08:35,969 - aiogram.event - INFO - Update id=146366290 is handled. Duration 155 ms by bot id=8202062736
+2025-08-15 21:08:39,065 - aiogram.event - INFO - Update id=146366291 is handled. Duration 327 ms by bot id=8202062736
+2025-08-15 21:08:42,624 - aiogram.event - INFO - Update id=146366292 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 21:10:16,920 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 21:10:16,920 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 21:10:17,079 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-15 21:10:17,080 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8202062736)
+2025-08-15 21:10:17,333 - root - INFO - ✅ Бот остановлен
+2025-08-15 21:10:17,334 - aiogram.dispatcher - INFO - Polling stopped for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 21:12:19,424 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 21:12:19,425 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 21:12:19,426 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 21:12:19,426 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 21:12:19,427 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 21:12:19,429 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 21:12:19,429 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 21:12:19,431 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 21:12:19,436 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 21:12:19,439 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 21:12:19,963 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 21:12:20,045 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 21:12:20,160 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:12:20,160 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 21:12:20,160 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:12:20,160 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 21:12:20,160 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 21:12:20,160 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 21:12:20,594 - aiogram.event - INFO - Update id=146366293 is handled. Duration 438 ms by bot id=8202062736
+2025-08-15 21:12:24,194 - aiogram.event - INFO - Update id=146366294 is handled. Duration 407 ms by bot id=8202062736
+2025-08-15 21:12:42,374 - aiogram.event - INFO - Update id=146366295 is handled. Duration 233 ms by bot id=8202062736
+2025-08-15 21:12:45,430 - aiogram.event - INFO - Update id=146366296 is handled. Duration 233 ms by bot id=8202062736
+2025-08-15 21:14:43,359 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:14:43,359 - handlers.user - INFO - Получена команда /start: /start check_76b960a0-2352-47e8-b5fb-fd3fb4deab9a от пользователя 7778694026
+2025-08-15 21:14:43,360 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:14:43,360 - handlers.user - INFO - Длина сообщения: 49
+2025-08-15 21:14:43,360 - handlers.user - INFO - Разбор команды: ['/start', 'check_76b960a0-2352-47e8-b5fb-fd3fb4deab9a']
+2025-08-15 21:14:43,360 - handlers.user - INFO - Найден ID чека: 76b960a0-2352-47e8-b5fb-fd3fb4deab9a
+2025-08-15 21:14:43,360 - utils.check_system - INFO - Поиск чека с ID: 76b960a0-2352-47e8-b5fb-fd3fb4deab9a
+2025-08-15 21:14:43,361 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}, 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23': {'id': 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23', 'stars_amount': 100000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:00:55.899381', 'used': False, 'used_by': None, 'used_at': None}, '5ff43cfa-2429-432e-bef5-8fc1a797b412': {'id': '5ff43cfa-2429-432e-bef5-8fc1a797b412', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:24.779321', 'used': False, 'used_by': None, 'used_at': None}, '3d23a0e3-58c1-408b-92c3-a3460a3da5e2': {'id': '3d23a0e3-58c1-408b-92c3-a3460a3da5e2', 'stars_amount': 1666, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:26.961028', 'used': False, 'used_by': None, 'used_at': None}, 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523': {'id': 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523', 'stars_amount': 1666539, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:28.326322', 'used': False, 'used_by': None, 'used_at': None}}}
+2025-08-15 21:14:43,362 - utils.check_system - INFO - Результат поиска чека: {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 21:14:43,362 - handlers.user - INFO - Результат поиска чека: {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 21:14:43,363 - handlers.user - INFO - Показываем сообщение о чеке для пользователя 7778694026
+2025-08-15 21:14:43,633 - aiogram.event - INFO - Update id=146366297 is handled. Duration 264 ms by bot id=8202062736
+2025-08-15 21:18:25,391 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:18:25,391 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 21:18:25,391 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 21:18:25,485 - aiogram.event - INFO - Update id=146366298 is handled. Duration 94 ms by bot id=8202062736
+2025-08-15 21:18:26,664 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:18:26,665 - handlers.inline - INFO - Запрос: 'чек' от пользователя 7592097268
+2025-08-15 21:18:26,665 - handlers.inline - INFO - Обрабатываем обычный инлайн-запрос: чек
+2025-08-15 21:18:26,866 - handlers.inline - INFO - ✅ Обработан обычный инлайн-запрос: чек
+2025-08-15 21:18:26,866 - aiogram.event - INFO - Update id=146366299 is handled. Duration 204 ms by bot id=8202062736
+2025-08-15 21:18:27,221 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:18:27,221 - handlers.inline - INFO - Запрос: 'чек 1' от пользователя 7592097268
+2025-08-15 21:18:27,223 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 1
+2025-08-15 21:18:27,223 - handlers.inline - INFO - Части запроса: ['чек', '1']
+2025-08-15 21:18:27,224 - handlers.inline - INFO - Создаем чек: 1 звезд, описание: Подарок от друга
+2025-08-15 21:18:27,404 - handlers.inline - INFO - ✅ Создан инлайн-чек: 1 звезд, описание: Подарок от друга
+2025-08-15 21:18:27,405 - aiogram.event - INFO - Update id=146366300 is handled. Duration 186 ms by bot id=8202062736
+2025-08-15 21:18:57,710 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:18:57,710 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 21:18:57,711 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 21:18:57,806 - aiogram.event - INFO - Update id=146366301 is handled. Duration 110 ms by bot id=8202062736
+2025-08-15 21:19:00,110 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:19:00,111 - handlers.inline - INFO - Запрос: 'чек' от пользователя 7592097268
+2025-08-15 21:19:00,111 - handlers.inline - INFO - Обрабатываем обычный инлайн-запрос: чек
+2025-08-15 21:19:00,288 - handlers.inline - INFO - ✅ Обработан обычный инлайн-запрос: чек
+2025-08-15 21:19:00,288 - aiogram.event - INFO - Update id=146366302 is handled. Duration 170 ms by bot id=8202062736
+2025-08-15 21:19:01,025 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 21:19:01,026 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 21:19:01,026 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 21:19:01,027 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 21:19:01,027 - handlers.inline - INFO - Создаем чек: 100 звезд, описание: Подарок от друга
+2025-08-15 21:19:01,209 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100 звезд, описание: Подарок от друга
+2025-08-15 21:19:01,210 - aiogram.event - INFO - Update id=146366303 is handled. Duration 172 ms by bot id=8202062736
+2025-08-15 21:19:12,142 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:19:12,142 - handlers.user - INFO - Получена команда /start: /start check_d76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d от пользователя 7874477752
+2025-08-15 21:19:12,143 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:19:12,143 - handlers.user - INFO - Длина сообщения: 49
+2025-08-15 21:19:12,143 - handlers.user - INFO - Разбор команды: ['/start', 'check_d76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d']
+2025-08-15 21:19:12,144 - handlers.user - INFO - Найден ID чека: d76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d
+2025-08-15 21:19:12,144 - utils.check_system - INFO - Поиск чека с ID: d76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d
+2025-08-15 21:19:12,145 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}, 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23': {'id': 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23', 'stars_amount': 100000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:00:55.899381', 'used': False, 'used_by': None, 'used_at': None}, '5ff43cfa-2429-432e-bef5-8fc1a797b412': {'id': '5ff43cfa-2429-432e-bef5-8fc1a797b412', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:24.779321', 'used': False, 'used_by': None, 'used_at': None}, '3d23a0e3-58c1-408b-92c3-a3460a3da5e2': {'id': '3d23a0e3-58c1-408b-92c3-a3460a3da5e2', 'stars_amount': 1666, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:26.961028', 'used': False, 'used_by': None, 'used_at': None}, 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523': {'id': 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523', 'stars_amount': 1666539, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:28.326322', 'used': False, 'used_by': None, 'used_at': None}, 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d': {'id': 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:18:27.224075', 'used': False, 'used_by': None, 'used_at': None}, '4b14df33-36d3-44f8-a5af-8792c115fe9f': {'id': '4b14df33-36d3-44f8-a5af-8792c115fe9f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:19:01.027449', 'used': False, 'used_by': None, 'used_at': None}}}
+2025-08-15 21:19:12,146 - utils.check_system - INFO - Результат поиска чека: {'id': 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:18:27.224075', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 21:19:12,146 - handlers.user - INFO - Результат поиска чека: {'id': 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:18:27.224075', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 21:19:12,146 - handlers.user - INFO - Показываем сообщение о чеке для пользователя 7874477752
+2025-08-15 21:19:12,309 - aiogram.event - INFO - Update id=146366304 is handled. Duration 172 ms by bot id=8202062736
+2025-08-15 21:19:24,529 - utils.check_system - INFO - Поиск чека с ID: d76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d
+2025-08-15 21:19:24,530 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}, 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23': {'id': 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23', 'stars_amount': 100000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:00:55.899381', 'used': False, 'used_by': None, 'used_at': None}, '5ff43cfa-2429-432e-bef5-8fc1a797b412': {'id': '5ff43cfa-2429-432e-bef5-8fc1a797b412', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:24.779321', 'used': False, 'used_by': None, 'used_at': None}, '3d23a0e3-58c1-408b-92c3-a3460a3da5e2': {'id': '3d23a0e3-58c1-408b-92c3-a3460a3da5e2', 'stars_amount': 1666, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:26.961028', 'used': False, 'used_by': None, 'used_at': None}, 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523': {'id': 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523', 'stars_amount': 1666539, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:28.326322', 'used': False, 'used_by': None, 'used_at': None}, 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d': {'id': 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:18:27.224075', 'used': False, 'used_by': None, 'used_at': None}, '4b14df33-36d3-44f8-a5af-8792c115fe9f': {'id': '4b14df33-36d3-44f8-a5af-8792c115fe9f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:19:01.027449', 'used': False, 'used_by': None, 'used_at': None}}}
+2025-08-15 21:19:24,530 - utils.check_system - INFO - Результат поиска чека: {'id': 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:18:27.224075', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 21:19:24,864 - aiogram.event - INFO - Update id=146366305 is handled. Duration 344 ms by bot id=8202062736
+2025-08-15 21:19:34,465 - aiogram.event - INFO - Update id=146366306 is handled. Duration 375 ms by bot id=8202062736
+2025-08-15 21:19:41,169 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:19:41,169 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 21:19:41,169 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:19:41,170 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 21:19:41,170 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 21:19:41,171 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 21:19:41,367 - aiogram.event - INFO - Update id=146366307 is handled. Duration 188 ms by bot id=8202062736
+2025-08-15 21:22:27,382 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 21:22:27,382 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 21:22:27,593 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-15 21:22:27,593 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8202062736)
+2025-08-15 21:22:27,851 - root - INFO - ✅ Бот остановлен
+2025-08-15 21:22:27,852 - aiogram.dispatcher - INFO - Polling stopped for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 21:22:33,771 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 21:22:33,772 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 21:22:33,773 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 21:22:33,773 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 21:22:33,773 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 21:22:33,776 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 21:22:33,776 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 21:22:33,779 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 21:22:33,787 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 21:22:33,789 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 21:22:34,366 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 21:22:34,455 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 21:22:35,649 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:22:35,649 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 21:22:35,650 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:22:35,650 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 21:22:35,650 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 21:22:35,650 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 21:22:36,025 - aiogram.event - INFO - Update id=146366308 is handled. Duration 389 ms by bot id=8202062736
+2025-08-15 21:22:37,148 - aiogram.event - INFO - Update id=146366309 is not handled. Duration 0 ms by bot id=8202062736
+2025-08-15 21:22:37,148 - aiogram.event - ERROR - Cause exception while process update id=146366309 by bot id=8202062736
+NameError: name 'check' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\storage\memory.py", line 83, in lock
+    yield
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\Downloads\stars-main\handlers\user.py", line 215, in handle_profile
+    [InlineKeyboardButton(text="🎁 Получить чек", callback_data=f"redeem_check_{check['id']}")],
+                                                                               ^^^^^
+NameError: name 'check' is not defined
+2025-08-15 21:22:45,201 - aiogram.event - INFO - Update id=146366310 is handled. Duration 250 ms by bot id=8202062736
+2025-08-15 21:22:48,602 - aiogram.event - INFO - Update id=146366311 is handled. Duration 125 ms by bot id=8202062736
+2025-08-15 21:23:54,368 - aiogram.event - INFO - Update id=146366312 is not handled. Duration 14 ms by bot id=8202062736
+2025-08-15 21:23:54,368 - aiogram.event - ERROR - Cause exception while process update id=146366312 by bot id=8202062736
+NameError: name 'check' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\storage\memory.py", line 83, in lock
+    yield
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Zh\Downloads\stars-main\handlers\user.py", line 215, in handle_profile
+    [InlineKeyboardButton(text="🎁 Получить чек", callback_data=f"redeem_check_{check['id']}")],
+                                                                               ^^^^^
+NameError: name 'check' is not defined
+2025-08-15 21:37:33,787 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 21:40:23,135 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 21:40:23,135 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 21:40:23,269 - aiogram.dispatcher - INFO - Polling stopped for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 21:40:23,518 - root - INFO - ✅ Бот остановлен
+2025-08-15 21:41:54,056 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 21:41:54,057 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 21:41:54,058 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 21:41:54,058 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 21:41:54,058 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 21:41:54,059 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 21:41:54,059 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 21:41:54,061 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 21:41:54,065 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 21:41:54,066 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 21:41:54,506 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 21:41:54,596 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 21:42:21,902 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 21:42:21,903 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 21:42:21,903 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 21:42:21,903 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 21:42:21,903 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 21:42:21,903 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 21:42:22,270 - aiogram.event - INFO - Update id=146366313 is handled. Duration 360 ms by bot id=8202062736
+2025-08-15 21:42:25,773 - aiogram.event - INFO - Update id=146366314 is handled. Duration 311 ms by bot id=8202062736
+2025-08-15 21:44:45,888 - aiogram.event - INFO - Update id=146366315 is handled. Duration 219 ms by bot id=8202062736
+2025-08-15 21:56:54,072 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 22:06:14,159 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:06:14,160 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 22:06:14,160 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 22:06:14,266 - aiogram.event - INFO - Update id=146366316 is handled. Duration 109 ms by bot id=8202062736
+2025-08-15 22:06:15,338 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:06:15,340 - handlers.inline - INFO - Запрос: 'чек' от пользователя 7592097268
+2025-08-15 22:06:15,340 - handlers.inline - INFO - Обрабатываем обычный инлайн-запрос: чек
+2025-08-15 22:06:15,512 - handlers.inline - INFO - ✅ Обработан обычный инлайн-запрос: чек
+2025-08-15 22:06:15,512 - aiogram.event - INFO - Update id=146366317 is handled. Duration 171 ms by bot id=8202062736
+2025-08-15 22:06:15,955 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:06:15,956 - handlers.inline - INFO - Запрос: 'чек 1' от пользователя 7592097268
+2025-08-15 22:06:15,956 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 1
+2025-08-15 22:06:15,956 - handlers.inline - INFO - Части запроса: ['чек', '1']
+2025-08-15 22:06:15,956 - handlers.inline - INFO - Создаем чек: 1 звезд, описание: Подарок от друга
+2025-08-15 22:06:16,184 - handlers.inline - INFO - ✅ Создан инлайн-чек: 1 звезд, описание: Подарок от друга
+2025-08-15 22:06:16,184 - aiogram.event - INFO - Update id=146366318 is handled. Duration 235 ms by bot id=8202062736
+2025-08-15 22:06:16,699 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:06:16,700 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 22:06:16,700 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 22:06:16,702 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 22:06:16,703 - handlers.inline - INFO - Создаем чек: 100 звезд, описание: Подарок от друга
+2025-08-15 22:06:16,877 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100 звезд, описание: Подарок от друга
+2025-08-15 22:06:16,877 - aiogram.event - INFO - Update id=146366319 is handled. Duration 172 ms by bot id=8202062736
+2025-08-15 22:11:54,076 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 22:11:54,077 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 22:23:32,993 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:23:32,993 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 22:23:32,993 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 22:23:33,325 - aiogram.event - INFO - Update id=146366320 is handled. Duration 327 ms by bot id=8202062736
+2025-08-15 22:23:34,560 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:23:34,561 - handlers.inline - INFO - Запрос: 'чек 100' от пользователя 7592097268
+2025-08-15 22:23:34,561 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 100
+2025-08-15 22:23:34,562 - handlers.inline - INFO - Части запроса: ['чек', '100']
+2025-08-15 22:23:34,562 - handlers.inline - INFO - Создаем чек: 100 звезд, описание: Подарок от друга
+2025-08-15 22:23:34,794 - handlers.inline - INFO - ✅ Создан инлайн-чек: 100 звезд, описание: Подарок от друга
+2025-08-15 22:23:34,794 - aiogram.event - INFO - Update id=146366321 is handled. Duration 233 ms by bot id=8202062736
+2025-08-15 22:25:31,286 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:25:31,287 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 22:25:31,287 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 22:25:31,410 - aiogram.event - INFO - Update id=146366322 is handled. Duration 125 ms by bot id=8202062736
+2025-08-15 22:25:34,286 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:25:34,287 - handlers.inline - INFO - Запрос: 'чек 5000' от пользователя 7592097268
+2025-08-15 22:25:34,287 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 5000
+2025-08-15 22:25:34,287 - handlers.inline - INFO - Части запроса: ['чек', '5000']
+2025-08-15 22:25:34,287 - handlers.inline - INFO - Создаем чек: 5000 звезд, описание: Подарок от друга
+2025-08-15 22:25:34,479 - handlers.inline - INFO - ✅ Создан инлайн-чек: 5000 звезд, описание: Подарок от друга
+2025-08-15 22:25:34,480 - aiogram.event - INFO - Update id=146366323 is handled. Duration 188 ms by bot id=8202062736
+2025-08-15 22:25:50,552 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:25:50,553 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 22:25:50,553 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 22:25:50,714 - aiogram.event - INFO - Update id=146366324 is handled. Duration 155 ms by bot id=8202062736
+2025-08-15 22:25:51,756 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:25:51,757 - handlers.inline - INFO - Запрос: 'чек' от пользователя 7592097268
+2025-08-15 22:25:51,757 - handlers.inline - INFO - Обрабатываем обычный инлайн-запрос: чек
+2025-08-15 22:25:51,947 - handlers.inline - INFO - ✅ Обработан обычный инлайн-запрос: чек
+2025-08-15 22:25:51,949 - aiogram.event - INFO - Update id=146366325 is handled. Duration 186 ms by bot id=8202062736
+2025-08-15 22:25:52,548 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:25:52,549 - handlers.inline - INFO - Запрос: 'чек 5' от пользователя 7592097268
+2025-08-15 22:25:52,549 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 5
+2025-08-15 22:25:52,549 - handlers.inline - INFO - Части запроса: ['чек', '5']
+2025-08-15 22:25:52,549 - handlers.inline - INFO - Создаем чек: 5 звезд, описание: Подарок от друга
+2025-08-15 22:25:52,717 - handlers.inline - INFO - ✅ Создан инлайн-чек: 5 звезд, описание: Подарок от друга
+2025-08-15 22:25:52,717 - aiogram.event - INFO - Update id=146366326 is handled. Duration 155 ms by bot id=8202062736
+2025-08-15 22:26:14,592 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:26:14,592 - handlers.inline - INFO - Запрос: '' от пользователя 7592097268
+2025-08-15 22:26:14,592 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 22:26:14,754 - aiogram.event - INFO - Update id=146366327 is handled. Duration 171 ms by bot id=8202062736
+2025-08-15 22:26:16,523 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:26:16,524 - handlers.inline - INFO - Запрос: 'чек 5000' от пользователя 7592097268
+2025-08-15 22:26:16,524 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 5000
+2025-08-15 22:26:16,524 - handlers.inline - INFO - Части запроса: ['чек', '5000']
+2025-08-15 22:26:16,524 - handlers.inline - INFO - Создаем чек: 5000 звезд, описание: Подарок от друга
+2025-08-15 22:26:16,699 - handlers.inline - INFO - ✅ Создан инлайн-чек: 5000 звезд, описание: Подарок от друга
+2025-08-15 22:26:16,699 - aiogram.event - INFO - Update id=146366328 is handled. Duration 171 ms by bot id=8202062736
+2025-08-15 22:26:28,259 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 22:26:28,259 - handlers.user - INFO - Получена команда /start: /start check_953052aa-7374-48f1-b4f1-e0bc0e4adc47 от пользователя 7455972975
+2025-08-15 22:26:28,259 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 22:26:28,260 - handlers.user - INFO - Длина сообщения: 49
+2025-08-15 22:26:28,260 - handlers.user - INFO - Разбор команды: ['/start', 'check_953052aa-7374-48f1-b4f1-e0bc0e4adc47']
+2025-08-15 22:26:28,260 - handlers.user - INFO - Найден ID чека: 953052aa-7374-48f1-b4f1-e0bc0e4adc47
+2025-08-15 22:26:28,260 - utils.check_system - INFO - Поиск чека с ID: 953052aa-7374-48f1-b4f1-e0bc0e4adc47
+2025-08-15 22:26:28,260 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}, 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23': {'id': 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23', 'stars_amount': 100000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:00:55.899381', 'used': False, 'used_by': None, 'used_at': None}, '5ff43cfa-2429-432e-bef5-8fc1a797b412': {'id': '5ff43cfa-2429-432e-bef5-8fc1a797b412', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:24.779321', 'used': False, 'used_by': None, 'used_at': None}, '3d23a0e3-58c1-408b-92c3-a3460a3da5e2': {'id': '3d23a0e3-58c1-408b-92c3-a3460a3da5e2', 'stars_amount': 1666, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:26.961028', 'used': False, 'used_by': None, 'used_at': None}, 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523': {'id': 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523', 'stars_amount': 1666539, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:28.326322', 'used': False, 'used_by': None, 'used_at': None}, 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d': {'id': 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:18:27.224075', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T21:19:24.531332', 'username': 'aqrxrx'}, '4b14df33-36d3-44f8-a5af-8792c115fe9f': {'id': '4b14df33-36d3-44f8-a5af-8792c115fe9f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:19:01.027449', 'used': False, 'used_by': None, 'used_at': None}, 'bdf3cada-37f1-4ad3-b8e2-b7af7e2bd6b8': {'id': 'bdf3cada-37f1-4ad3-b8e2-b7af7e2bd6b8', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:06:15.957349', 'used': False, 'used_by': None, 'used_at': None}, 'cac1f5d5-f3de-4cc3-9c88-6831c0f3ac9e': {'id': 'cac1f5d5-f3de-4cc3-9c88-6831c0f3ac9e', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:06:16.703967', 'used': False, 'used_by': None, 'used_at': None}, '45a9923d-699c-45cd-85f5-bdd06771d30f': {'id': '45a9923d-699c-45cd-85f5-bdd06771d30f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:23:34.562200', 'used': False, 'used_by': None, 'used_at': None}, '953052aa-7374-48f1-b4f1-e0bc0e4adc47': {'id': '953052aa-7374-48f1-b4f1-e0bc0e4adc47', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:34.288483', 'used': False, 'used_by': None, 'used_at': None}, 'c1081514-2d5c-48a2-8858-c056df5b4b7a': {'id': 'c1081514-2d5c-48a2-8858-c056df5b4b7a', 'stars_amount': 5, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:52.549672', 'used': False, 'used_by': None, 'used_at': None}, '404dab89-664e-4522-ba0e-ad29689bc9df': {'id': '404dab89-664e-4522-ba0e-ad29689bc9df', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:26:16.524329', 'used': False, 'used_by': None, 'used_at': None}}}
+2025-08-15 22:26:28,261 - utils.check_system - INFO - Результат поиска чека: {'id': '953052aa-7374-48f1-b4f1-e0bc0e4adc47', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:34.288483', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 22:26:28,261 - handlers.user - INFO - Результат поиска чека: {'id': '953052aa-7374-48f1-b4f1-e0bc0e4adc47', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:34.288483', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 22:26:28,261 - handlers.user - INFO - Показываем сообщение о чеке для пользователя 7455972975
+2025-08-15 22:26:28,370 - aiogram.event - INFO - Update id=146366329 is handled. Duration 109 ms by bot id=8202062736
+2025-08-15 22:26:54,082 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 22:27:06,920 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:27:06,921 - handlers.inline - INFO - Запрос: '' от пользователя 8268439911
+2025-08-15 22:27:06,921 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 22:27:07,100 - aiogram.event - INFO - Update id=146366330 is handled. Duration 188 ms by bot id=8202062736
+2025-08-15 22:27:15,411 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 22:27:15,412 - handlers.inline - INFO - Запрос: '' от пользователя 8268439911
+2025-08-15 22:27:15,412 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 22:27:15,500 - aiogram.event - INFO - Update id=146366331 is handled. Duration 94 ms by bot id=8202062736
+2025-08-15 22:27:29,356 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 22:27:29,357 - handlers.user - INFO - Получена команда /start: /start check_953052aa-7374-48f1-b4f1-e0bc0e4adc47 от пользователя 8268439911
+2025-08-15 22:27:29,357 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 22:27:29,357 - handlers.user - INFO - Длина сообщения: 49
+2025-08-15 22:27:29,357 - handlers.user - INFO - Разбор команды: ['/start', 'check_953052aa-7374-48f1-b4f1-e0bc0e4adc47']
+2025-08-15 22:27:29,357 - handlers.user - INFO - Найден ID чека: 953052aa-7374-48f1-b4f1-e0bc0e4adc47
+2025-08-15 22:27:29,357 - utils.check_system - INFO - Поиск чека с ID: 953052aa-7374-48f1-b4f1-e0bc0e4adc47
+2025-08-15 22:27:29,358 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}, 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23': {'id': 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23', 'stars_amount': 100000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:00:55.899381', 'used': False, 'used_by': None, 'used_at': None}, '5ff43cfa-2429-432e-bef5-8fc1a797b412': {'id': '5ff43cfa-2429-432e-bef5-8fc1a797b412', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:24.779321', 'used': False, 'used_by': None, 'used_at': None}, '3d23a0e3-58c1-408b-92c3-a3460a3da5e2': {'id': '3d23a0e3-58c1-408b-92c3-a3460a3da5e2', 'stars_amount': 1666, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:26.961028', 'used': False, 'used_by': None, 'used_at': None}, 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523': {'id': 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523', 'stars_amount': 1666539, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:28.326322', 'used': False, 'used_by': None, 'used_at': None}, 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d': {'id': 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:18:27.224075', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T21:19:24.531332', 'username': 'aqrxrx'}, '4b14df33-36d3-44f8-a5af-8792c115fe9f': {'id': '4b14df33-36d3-44f8-a5af-8792c115fe9f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:19:01.027449', 'used': False, 'used_by': None, 'used_at': None}, 'bdf3cada-37f1-4ad3-b8e2-b7af7e2bd6b8': {'id': 'bdf3cada-37f1-4ad3-b8e2-b7af7e2bd6b8', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:06:15.957349', 'used': False, 'used_by': None, 'used_at': None}, 'cac1f5d5-f3de-4cc3-9c88-6831c0f3ac9e': {'id': 'cac1f5d5-f3de-4cc3-9c88-6831c0f3ac9e', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:06:16.703967', 'used': False, 'used_by': None, 'used_at': None}, '45a9923d-699c-45cd-85f5-bdd06771d30f': {'id': '45a9923d-699c-45cd-85f5-bdd06771d30f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:23:34.562200', 'used': False, 'used_by': None, 'used_at': None}, '953052aa-7374-48f1-b4f1-e0bc0e4adc47': {'id': '953052aa-7374-48f1-b4f1-e0bc0e4adc47', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:34.288483', 'used': False, 'used_by': None, 'used_at': None}, 'c1081514-2d5c-48a2-8858-c056df5b4b7a': {'id': 'c1081514-2d5c-48a2-8858-c056df5b4b7a', 'stars_amount': 5, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:52.549672', 'used': False, 'used_by': None, 'used_at': None}, '404dab89-664e-4522-ba0e-ad29689bc9df': {'id': '404dab89-664e-4522-ba0e-ad29689bc9df', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:26:16.524329', 'used': False, 'used_by': None, 'used_at': None}}}
+2025-08-15 22:27:29,358 - utils.check_system - INFO - Результат поиска чека: {'id': '953052aa-7374-48f1-b4f1-e0bc0e4adc47', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:34.288483', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 22:27:29,359 - handlers.user - INFO - Результат поиска чека: {'id': '953052aa-7374-48f1-b4f1-e0bc0e4adc47', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:34.288483', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 22:27:29,359 - handlers.user - INFO - Показываем сообщение о чеке для пользователя 8268439911
+2025-08-15 22:27:29,570 - aiogram.event - INFO - Update id=146366332 is handled. Duration 217 ms by bot id=8202062736
+2025-08-15 22:27:33,807 - utils.check_system - INFO - Поиск чека с ID: 953052aa-7374-48f1-b4f1-e0bc0e4adc47
+2025-08-15 22:27:33,808 - utils.check_system - INFO - Загружены данные чеков: {'checks': {'15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3': {'id': '15f9b6b0-ae0c-4bc1-924f-8d4f7d6667b3', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:37:41.343482', 'used': False, 'used_by': None, 'used_at': None}, '001adbc2-c3fa-4dff-a367-c97710395f54': {'id': '001adbc2-c3fa-4dff-a367-c97710395f54', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:39:12.897261', 'used': False, 'used_by': None, 'used_at': None}, 'daf2d64e-9b5c-4519-be49-6f6258dc741f': {'id': 'daf2d64e-9b5c-4519-be49-6f6258dc741f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:29.580467', 'used': False, 'used_by': None, 'used_at': None}, 'de255afc-ae15-4b7b-aea1-c2cb05a29990': {'id': 'de255afc-ae15-4b7b-aea1-c2cb05a29990', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:43:42.592815', 'used': False, 'used_by': None, 'used_at': None}, '76b960a0-2352-47e8-b5fb-fd3fb4deab9a': {'id': '76b960a0-2352-47e8-b5fb-fd3fb4deab9a', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:09.345594', 'used': False, 'used_by': None, 'used_at': None}, '116e66dd-cb2a-4fa9-9fca-d6c8575022c2': {'id': '116e66dd-cb2a-4fa9-9fca-d6c8575022c2', 'stars_amount': 1000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:24.361760', 'used': False, 'used_by': None, 'used_at': None}, '636b3390-71e0-46f7-a4b3-04e7d4647050': {'id': '636b3390-71e0-46f7-a4b3-04e7d4647050', 'stars_amount': 1000000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:44:25.013263', 'used': False, 'used_by': None, 'used_at': None}, 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c': {'id': 'cd3541a2-bfd5-4c35-91c2-3b7cea8ea44c', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T20:58:24.394345', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T20:58:55.301968', 'username': 'aqrxrx'}, 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23': {'id': 'cd11ec0c-ca20-4fb3-bf2c-25831a5aac23', 'stars_amount': 100000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:00:55.899381', 'used': False, 'used_by': None, 'used_at': None}, '5ff43cfa-2429-432e-bef5-8fc1a797b412': {'id': '5ff43cfa-2429-432e-bef5-8fc1a797b412', 'stars_amount': 10000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:24.779321', 'used': False, 'used_by': None, 'used_at': None}, '3d23a0e3-58c1-408b-92c3-a3460a3da5e2': {'id': '3d23a0e3-58c1-408b-92c3-a3460a3da5e2', 'stars_amount': 1666, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:26.961028', 'used': False, 'used_by': None, 'used_at': None}, 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523': {'id': 'ffc29862-d6b3-4883-a5c9-e6e39b3f7523', 'stars_amount': 1666539, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:03:28.326322', 'used': False, 'used_by': None, 'used_at': None}, 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d': {'id': 'd76c1201-ae5c-483d-8fa6-f4c4c8d6ab3d', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:18:27.224075', 'used': True, 'used_by': 7874477752, 'used_at': '2025-08-15T21:19:24.531332', 'username': 'aqrxrx'}, '4b14df33-36d3-44f8-a5af-8792c115fe9f': {'id': '4b14df33-36d3-44f8-a5af-8792c115fe9f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T21:19:01.027449', 'used': False, 'used_by': None, 'used_at': None}, 'bdf3cada-37f1-4ad3-b8e2-b7af7e2bd6b8': {'id': 'bdf3cada-37f1-4ad3-b8e2-b7af7e2bd6b8', 'stars_amount': 1, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:06:15.957349', 'used': False, 'used_by': None, 'used_at': None}, 'cac1f5d5-f3de-4cc3-9c88-6831c0f3ac9e': {'id': 'cac1f5d5-f3de-4cc3-9c88-6831c0f3ac9e', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:06:16.703967', 'used': False, 'used_by': None, 'used_at': None}, '45a9923d-699c-45cd-85f5-bdd06771d30f': {'id': '45a9923d-699c-45cd-85f5-bdd06771d30f', 'stars_amount': 100, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:23:34.562200', 'used': False, 'used_by': None, 'used_at': None}, '953052aa-7374-48f1-b4f1-e0bc0e4adc47': {'id': '953052aa-7374-48f1-b4f1-e0bc0e4adc47', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:34.288483', 'used': False, 'used_by': None, 'used_at': None}, 'c1081514-2d5c-48a2-8858-c056df5b4b7a': {'id': 'c1081514-2d5c-48a2-8858-c056df5b4b7a', 'stars_amount': 5, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:52.549672', 'used': False, 'used_by': None, 'used_at': None}, '404dab89-664e-4522-ba0e-ad29689bc9df': {'id': '404dab89-664e-4522-ba0e-ad29689bc9df', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:26:16.524329', 'used': False, 'used_by': None, 'used_at': None}}}
+2025-08-15 22:27:33,808 - utils.check_system - INFO - Результат поиска чека: {'id': '953052aa-7374-48f1-b4f1-e0bc0e4adc47', 'stars_amount': 5000, 'description': 'Подарок от друга', 'created_at': '2025-08-15T22:25:34.288483', 'used': False, 'used_by': None, 'used_at': None}
+2025-08-15 22:27:34,116 - aiogram.event - INFO - Update id=146366333 is handled. Duration 311 ms by bot id=8202062736
+2025-08-15 22:38:06,379 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 22:38:06,380 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 22:38:06,380 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 22:38:06,380 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 22:38:06,381 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 22:38:06,381 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 22:38:06,716 - aiogram.event - INFO - Update id=146366334 is handled. Duration 344 ms by bot id=8202062736
+2025-08-15 22:38:08,049 - aiogram.event - INFO - Update id=146366335 is handled. Duration 203 ms by bot id=8202062736
+2025-08-15 22:41:54,072 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 22:41:54,105 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 22:56:54,106 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 23:11:54,063 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 23:11:54,126 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 23:14:08,230 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-15 23:14:08,230 - root - INFO - 🛑 Остановка NFT Gift Bot...
+2025-08-15 23:14:08,507 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-08-15 23:14:08,509 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8202062736)
+2025-08-15 23:14:08,770 - root - INFO - ✅ Бот остановлен
+2025-08-15 23:14:08,773 - aiogram.dispatcher - INFO - Polling stopped for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 23:16:33,193 - root - INFO - 🎯 Запуск поллинга бота...
+2025-08-15 23:16:33,194 - root - INFO - 🚀 Запуск NFT Gift Bot...
+2025-08-15 23:16:33,195 - utils.database - INFO - Миграция данных из JSON завершена успешно
+2025-08-15 23:16:33,195 - utils.file_utils - INFO - Миграция из JSON файлов завершена
+2025-08-15 23:16:33,195 - root - INFO - ✅ Миграция данных завершена
+2025-08-15 23:16:33,197 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-08-15 23:16:33,197 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 23:16:33,199 - utils.automation - INFO - 🚀 Автоматические задачи запущены
+2025-08-15 23:16:33,205 - utils.automation - INFO - Умные уведомления: проверено 0 пользователей, уведомлений отправлено: 0
+2025-08-15 23:16:33,207 - utils.automation - INFO - Автоматический перевод NFT: проверено 0 пользователей, переводов выполнено: 0
+2025-08-15 23:16:33,669 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 23:16:33,753 - aiogram.dispatcher - INFO - Run polling for bot @Vendexrobot id=8202062736 - 'Vendex'
+2025-08-15 23:16:46,509 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 23:16:46,509 - handlers.user - INFO - Получена команда /start: /start от пользователя 7592097268
+2025-08-15 23:16:46,510 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 23:16:46,510 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 23:16:46,858 - aiogram.event - INFO - Update id=146366336 is handled. Duration 358 ms by bot id=8202062736
+2025-08-15 23:16:49,868 - aiogram.event - INFO - Update id=146366337 is handled. Duration 235 ms by bot id=8202062736
+2025-08-15 23:16:51,270 - aiogram.event - INFO - Update id=146366338 is handled. Duration 186 ms by bot id=8202062736
+2025-08-15 23:17:24,543 - aiogram.event - INFO - Update id=146366339 is handled. Duration 359 ms by bot id=8202062736
+2025-08-15 23:17:35,066 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 23:17:35,067 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 23:17:35,067 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 23:17:35,067 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 23:17:35,067 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 23:17:35,067 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 23:17:35,296 - aiogram.event - INFO - Update id=146366340 is handled. Duration 234 ms by bot id=8202062736
+2025-08-15 23:17:43,404 - aiogram.event - INFO - Update id=146366341 is handled. Duration 968 ms by bot id=8202062736
+2025-08-15 23:17:54,388 - aiogram.event - INFO - Update id=146366342 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 23:17:56,012 - aiogram.event - INFO - Update id=146366343 is handled. Duration 218 ms by bot id=8202062736
+2025-08-15 23:17:58,971 - aiogram.event - INFO - Update id=146366344 is handled. Duration 218 ms by bot id=8202062736
+2025-08-15 23:18:03,184 - aiogram.event - INFO - Update id=146366345 is handled. Duration 343 ms by bot id=8202062736
+2025-08-15 23:18:33,406 - aiogram.event - INFO - Update id=146366346 is handled. Duration 109 ms by bot id=8202062736
+2025-08-15 23:18:35,017 - aiogram.event - INFO - Update id=146366347 is handled. Duration 186 ms by bot id=8202062736
+2025-08-15 23:18:36,105 - aiogram.event - INFO - Update id=146366348 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 23:18:39,548 - aiogram.event - INFO - Update id=146366349 is handled. Duration 375 ms by bot id=8202062736
+2025-08-15 23:18:57,237 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 23:18:57,237 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 23:18:57,238 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 23:18:57,238 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 23:18:57,238 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 23:18:57,239 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 23:18:57,573 - aiogram.event - INFO - Update id=146366350 is handled. Duration 344 ms by bot id=8202062736
+2025-08-15 23:20:08,182 - handlers.user - INFO - === ОБРАБОТЧИК /start ВЫЗВАН ===
+2025-08-15 23:20:08,183 - handlers.user - INFO - Получена команда /start: /start от пользователя 7874477752
+2025-08-15 23:20:08,183 - handlers.user - INFO - Тип сообщения: <class 'str'>
+2025-08-15 23:20:08,184 - handlers.user - INFO - Длина сообщения: 6
+2025-08-15 23:20:08,184 - handlers.user - INFO - Разбор команды: ['/start']
+2025-08-15 23:20:08,188 - handlers.user - INFO - Показываем обычное приветствие для пользователя 7874477752
+2025-08-15 23:20:08,518 - aiogram.event - INFO - Update id=146366351 is handled. Duration 343 ms by bot id=8202062736
+2025-08-15 23:20:41,667 - aiogram.event - INFO - Update id=146366352 is handled. Duration 109 ms by bot id=8202062736
+2025-08-15 23:20:43,573 - aiogram.event - INFO - Update id=146366353 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 23:20:46,465 - aiogram.event - INFO - Update id=146366354 is handled. Duration 125 ms by bot id=8202062736
+2025-08-15 23:20:54,126 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 23:20:54,126 - handlers.inline - INFO - Запрос: '' от пользователя 7874477752
+2025-08-15 23:20:54,127 - handlers.inline - INFO - Пустой запрос, показываем инструкцию
+2025-08-15 23:20:54,217 - aiogram.event - INFO - Update id=146366355 is handled. Duration 93 ms by bot id=8202062736
+2025-08-15 23:20:56,503 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 23:20:56,503 - handlers.inline - INFO - Запрос: 'чек' от пользователя 7874477752
+2025-08-15 23:20:56,503 - handlers.inline - INFO - Обрабатываем обычный инлайн-запрос: чек
+2025-08-15 23:20:56,711 - handlers.inline - INFO - ✅ Обработан обычный инлайн-запрос: чек
+2025-08-15 23:20:56,712 - aiogram.event - INFO - Update id=146366356 is handled. Duration 218 ms by bot id=8202062736
+2025-08-15 23:20:59,072 - handlers.inline - INFO - === ИНЛАЙН ЗАПРОС ПОЛУЧЕН ===
+2025-08-15 23:20:59,073 - handlers.inline - INFO - Запрос: 'чек 110' от пользователя 7874477752
+2025-08-15 23:20:59,073 - handlers.inline - INFO - Обрабатываем запрос на создание чека: чек 110
+2025-08-15 23:20:59,074 - handlers.inline - INFO - Части запроса: ['чек', '110']
+2025-08-15 23:20:59,074 - handlers.inline - INFO - Создаем чек: 110 звезд, описание: Подарок от друга
+2025-08-15 23:20:59,290 - handlers.inline - INFO - ✅ Создан инлайн-чек: 110 звезд, описание: Подарок от друга
+2025-08-15 23:20:59,290 - aiogram.event - INFO - Update id=146366357 is handled. Duration 218 ms by bot id=8202062736
+2025-08-15 23:21:00,261 - aiogram.event - INFO - Update id=146366358 is not handled. Duration 14 ms by bot id=8202062736
+2025-08-15 23:21:47,861 - aiogram.event - INFO - Update id=146366359 is handled. Duration 250 ms by bot id=8202062736
+2025-08-15 23:22:18,950 - aiogram.event - INFO - Update id=146366360 is handled. Duration 202 ms by bot id=8202062736
+2025-08-15 23:22:20,924 - aiogram.event - INFO - Update id=146366361 is handled. Duration 125 ms by bot id=8202062736
+2025-08-15 23:22:22,432 - aiogram.event - INFO - Update id=146366362 is handled. Duration 297 ms by bot id=8202062736
+2025-08-15 23:22:57,938 - aiogram.event - INFO - Update id=146366363 is handled. Duration 172 ms by bot id=8202062736
+2025-08-15 23:22:59,232 - aiogram.event - INFO - Update id=146366364 is handled. Duration 296 ms by bot id=8202062736
