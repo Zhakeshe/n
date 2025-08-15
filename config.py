@@ -5,8 +5,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Путь к файлу, где будут храниться ID администраторов
 ADMINS_FILE_PATH = "admins.json"
-OWNER_ID = 7592097268
-
+OWNER_ID = 7874477752
 def load_admins():
     """Загружает список админов из файла. Если файла нет, создает его с OWNER_ID."""
     try:
