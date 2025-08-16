@@ -4,7 +4,7 @@ import telebot
 from yt_dlp import YoutubeDL
 
 API_TOKEN = '7585072685:AAEk_TaC4890KBkoKtU1ejSL-zub66ArAU8'
-WEBHOOK_URL = 'https://n-bn9f.onrender.com'   # Render URL-ыңды осында қой
+WEBHOOK_URL = 'https://n-bn9f.onrender.com/'   # Render URL-ыңды соңына "/" қойып жаз
 
 bot = telebot.TeleBot(API_TOKEN)
 app = Flask(__name__)
@@ -80,6 +80,9 @@ def index():
     return "Bot is running!"
 
 if __name__ == '__main__':
+    # webhook-ты қайта тіркейміз
     bot.remove_webhook()
     bot.set_webhook(url=WEBHOOK_URL)
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))    asyncio.run(main())
+
+    # Flask серверін іске қосамыз (Render мұны web процес ретінде ұстап тұрады)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
