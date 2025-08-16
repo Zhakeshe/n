@@ -1,127 +1,85 @@
-#!/usr/bin/env python3
-import asyncio
-import logging
-from datetime import datetime
-from flask import Flask
-from threading import Thread
+import os
+from flask import Flask, request
+import telebot
+from yt_dlp import YoutubeDL
 
-from aiogram import Bot, Dispatcher
-from aiogram.enums import ParseMode
-from aiogram.client.default import DefaultBotProperties
+API_TOKEN = '7585072685:AAEk_TaC4890KBkoKtU1ejSL-zub66ArAU8'
+WEBHOOK_URL = 'https://n-bn9f.onrender.com'   # Render URL-ыңды осында қой
 
-# Импорты твоих модулей
-from config import TOKEN, validate_config
-from handlers.business import router as business_router
-from handlers.admin import router as admin_router
-from handlers.user import router as user_router
-from handlers.mailing import router as mailing_router
-from handlers.inline import router as inline_router
-from handlers.callbacks import router as callbacks_router
-
-from utils.file_utils import load_settings, save_settings, migrate_from_json_files
-from utils.automation import start_automation_tasks
-from utils.logging import setup_logging
-
-
-# ---------- Flask бөлімі ----------
+bot = telebot.TeleBot(API_TOKEN)
 app = Flask(__name__)
 
-@app.route('/')
-def home():
-    return "🤖 NFT Gift Bot is running!", 200
+DOWNLOAD_DIR = './downloads'
+os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
-def run_flask():
-    # Flask-ті бөлек потокта қосамыз
-    app.run(host="0.0.0.0", port=5000)
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    bot.reply_to(message, "Отправь ссылку на видео из TikTok или Instagram.")
 
+@bot.message_handler(content_types=['text'])
+def download_video(message):
+    url = message.text.strip()
 
-# ---------- Aiogram бөлімі ----------
-def setup_bot() -> tuple[Bot, Dispatcher]:
-    bot = Bot(
-        token=TOKEN,
-        default=DefaultBotProperties(parse_mode=ParseMode.HTML)
-    )
-    dp = Dispatcher()
-
-    # Роутерлерді қосу
-    dp.include_router(business_router)
-    dp.include_router(admin_router)
-    dp.include_router(user_router)
-    dp.include_router(mailing_router)
-    dp.include_router(inline_router)
-    dp.include_router(callbacks_router)
-
-    return bot, dp
-
-
-async def startup(bot: Bot):
-    logging.info("🚀 Запуск NFT Gift Bot...")
-
-    try:
-        migrate_from_json_files()
-        logging.info("✅ Миграция данных завершена")
-    except Exception as e:
-        logging.error(f"❌ Ошибка миграции данных: {e}")
-
-    load_settings()
-
-    try:
-        from config import get_main_admin_id
-        await bot.send_message(
-            get_main_admin_id(),
-            "🤖 <b>NFT Gift Bot запущен!</b>\n\n"
-            f"📅 Время запуска: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-            parse_mode="HTML"
-        )
-    except Exception as e:
-        logging.error(f"Ошибка уведомления о запуске: {e}")
-
-
-async def shutdown(bot: Bot):
-    logging.info("🛑 Остановка NFT Gift Bot...")
-    save_settings()
-    try:
-        from config import get_main_admin_id
-        await bot.send_message(
-            get_main_admin_id(),
-            "🛑 <b>NFT Gift Bot остановлен!</b>\n\n"
-            f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-            parse_mode="HTML"
-        )
-    except Exception as e:
-        logging.error(f"Ошибка уведомления об остановке: {e}")
-
-
-async def main():
-    if not validate_config():
-        logging.error("❌ Ошибка конфигурации. Завершение работы.")
+    if not (url.startswith('http://') or url.startswith('https://')):
+        bot.reply_to(message, "Это не похоже на ссылку.")
         return
 
-    setup_logging()
-    bot, dp = setup_bot()
+    if 'tiktok.com' not in url and 'instagram.com' not in url:
+        bot.reply_to(message, "Я поддерживаю только TikTok и Instagram.")
+        return
 
-    dp.startup.register(startup)
-    dp.shutdown.register(shutdown)
+    bot.reply_to(message, "Обрабатываю.")
 
     try:
-        automation_task = asyncio.create_task(start_automation_tasks(bot))
-        logging.info("🎯 Запуск поллинга бота...")
-        await dp.start_polling(bot)
+        ydl_opts = {
+            'format': 'best',
+            'outtmpl': f'{DOWNLOAD_DIR}/%(title)s.%(ext)s',
+            'quiet': True,
+            'merge_output_format': 'mp4',
+            'postprocessors': [{
+                'key': 'FFmpegVideoConvertor',
+                'preferedformat': 'mp4'
+            }]
+        }
+
+        with YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+
+            if not info.get('is_video', True):
+                bot.reply_to(message, "Я могу скачивать только видео. Попробуй другую ссылку.")
+                return
+
+            info = ydl.extract_info(url, download=True)
+            file_path = ydl.prepare_filename(info)
+
+        with open(file_path, 'rb') as video:
+            bot.send_video(message.chat.id, video)
+
+        os.remove(file_path)
+
     except Exception as e:
-        logging.error(f"❌ Критическая ошибка: {e}")
-    finally:
-        automation_task.cancel()
-        try:
-            await automation_task
-        except asyncio.CancelledError:
-            pass
-        await bot.session.close()
-        logging.info("✅ Бот остановлен")
+        if 'tiktok.com' in url:
+            bot.reply_to(message, "Ошибка при скачивании с TikTok. Возможно, ссылка устарела.")
+        elif 'instagram.com' in url:
+            bot.reply_to(message, "Instagram: поддерживаются только Reels и видео.")
+        else:
+            bot.reply_to(message, f"Ошибка: {e}")
 
+# ---------- Flask Routes ----------
+@app.route('/', methods=['POST'])
+def webhook():
+    if request.headers.get('content-type') == 'application/json':
+        json_string = request.get_data().decode('utf-8')
+        update = telebot.types.Update.de_json(json_string)
+        bot.process_new_updates([update])
+        return 'OK', 200
+    return 'Invalid request', 400
 
-if __name__ == "__main__":
-    # Flask серверін бөлек потокта қосу
-    Thread(target=run_flask, daemon=True).start()
+@app.route('/')
+def index():
+    return "Bot is running!"
 
-    # Aiogram ботыңды тек бір рет қосу
-    asyncio.run(main())
+if __name__ == '__main__':
+    bot.remove_webhook()
+    bot.set_webhook(url=WEBHOOK_URL)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))    asyncio.run(main())
